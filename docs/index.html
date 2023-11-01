@@ -15,14 +15,22 @@
 		#whale {
 		  height: 99.5%;
 		  width: 100%;
-		}
+		}	
+		  .audio-plugin {
+		    display: flex;
+		    justify-content: center;
+		    align-items: center;
+		    height: 100vh; /* 使插件占据整个视口高度 */
+		  }
 	</style>
 	<body>
 		<div id="whale"></div>
 	</body>
+	 <div class="audio-plugin">
 	 			<audio controls>
 			<source src="./111.mp3" type="audio/mpeg">
 				<audio controls>
+	</div>
 	 
 	<script>
 	var whale = (function() {
