@@ -1,5 +1,8 @@
 <!doctype html>
  <html>
+	 	<audio controls>
+	<source src="./111.mp3" type="audio/mpeg">
+		<audio controls>
 	<head>
 		<meta charset="utf-8"/>
 		<title>鲸鱼~~~~~~~~~~~</title>
@@ -17,18 +20,7 @@
 		}
 	</style>
 	<body>
-		<button id="playVideoButton">music</button>
 		<div id="whale"></div>
-			<script>
-		document.getElementById('playVideoButton').addEventListener('click', playLocalAudio);
-			function playLocalAudio() {
-			    const audioPath = '111.mp3'; // 替换为实际的音频文件名
-			    const audioUrl = window.location.origin + '/' + audioPath;
-			
-			    const audioElement = new Audio(audioUrl);
-			    audioElement.play();
-			}
-                        </script>
 	</body>
 	<script>
 	var whale = (function() {
