@@ -16,10 +16,12 @@
 		  width: 100%;
 		}
 	</style>
+	
 	<body>
 		<button id="playVideoButton">music</button>
 		<div id="whale"></div>
 	</body>
+	
 	<script>
     
      function playLocalAudio() {
@@ -27,7 +29,7 @@
    	 const audioUrl = window.location.origin + '/' + audioPath;
     	const audioElement = new Audio(audioUrl);
     	audioElement.play();
-     }
+     },
      document.getElementById('playVideoButton').addEventListener('click', playLocalAudio);
 	var whale = (function() {
 
