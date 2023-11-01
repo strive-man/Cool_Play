@@ -30,7 +30,7 @@
     	const audioElement = new Audio(audioUrl);
     	audioElement.play();
      },
-     document.getElementById('playVideoButton').addEventListener('click', playLocalAudio);
+     
 	var whale = (function() {
 
   	var element = document.getElementById("whale"),
@@ -321,6 +321,7 @@
 })();
 
 whale.init();
+document.getElementById('playVideoButton').addEventListener('click', playLocalAudio);		
 	</script>
 </html>
 
