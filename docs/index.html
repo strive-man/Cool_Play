@@ -16,23 +16,12 @@
 		  width: 100%;
 		}
 	</style>
-	
 	<body>
 		<button id="playVideoButton">music</button>
 		<div id="whale"></div>
 	</body>
-	
 	<script>
-    
-     function playLocalAudio() {
-    	const audioPath = '111.mp3'; // 替换为实际的音频文件名
-   	 const audioUrl = window.location.origin + '/' + audioPath;
-    	const audioElement = new Audio(audioUrl);
-    	audioElement.play();
-     },
-     
 	var whale = (function() {
-
   	var element = document.getElementById("whale"),
     width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth,
     height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight,
@@ -321,6 +310,12 @@
 })();
 
 whale.init();
+     function playLocalAudio() {
+    	const audioPath = '111.mp3'; // 替换为实际的音频文件名
+   	 const audioUrl = window.location.origin + '/' + audioPath;
+    	const audioElement = new Audio(audioUrl);
+    	audioElement.play();
+     }		
 document.getElementById('playVideoButton').addEventListener('click', playLocalAudio);		
 	</script>
 </html>
