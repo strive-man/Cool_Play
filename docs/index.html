@@ -21,13 +21,14 @@
 		<div id="whale"></div>
 	</body>
 	<script>
-     document.getElementById('playVideoButton').addEventListener('click', playLocalAudio);
+    
      function playLocalAudio() {
     	const audioPath = 'relaxed-vlog-night-street-131746.mp3'; // 替换为实际的音频文件名
    	 const audioUrl = window.location.origin + '/' + audioPath;
     	const audioElement = new Audio(audioUrl);
     	audioElement.play();
      }
+     document.getElementById('playVideoButton').addEventListener('click', playLocalAudio);
 	var whale = (function() {
 
   	var element = document.getElementById("whale"),
