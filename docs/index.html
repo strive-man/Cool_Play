@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<!-- <html>
 	<head>
 		<meta charset="utf-8"/>
 		<title>鲸鱼~~~~~~~~~~~</title>
@@ -318,6 +318,26 @@ whale.init();
      }		
 document.getElementById('playVideoButton').addEventListener('click', playLocalAudio);		
 	</script>
+</html> -->
+<html>
+<head>
+    <title>点击播放音频</title>
+</head>
+<body>
+    <button id="playButton">点击播放音频</button>
+
+    <script>
+        function playLocalAudio() {
+            const audioPath = '111.mp3'; // 替换为实际的音频文件名
+            const audioUrl = window.location.origin + '/' + audioPath;
+
+            const audioElement = new Audio(audioUrl);
+            audioElement.play();
+        }
+
+        document.getElementById('playButton').addEventListener('click', playLocalAudio);
+    </script>
+</body>
 </html>
 
 
