@@ -38,7 +38,7 @@ baseMusicListBox.appendChild(fragment);
 /**
  * 自动填充文字部分
  */
-let text = "Merry Christmas!<br>Belong to 马雪";
+let text = "Merry Christmas!<br>To: 马雪";
 /**
  * 获取 url 参数
  * @param {*} variable 传入 key
