@@ -65,24 +65,15 @@ body {
   margin: 2vmin 0;
 }
 
-#moving-image,#moving-gift { position: absolute; z-index: 10; }
+#moving-image{ position: absolute; z-index: 10; }
 
 #moving-image {
     position: absolute;
     bottom: 0; /* 定位到底部 */
-    left: 50%; /* 定位到水平中间 */
-    transform: translateX(-50%); /* 调整水平居中 */
+    left: 45%; /* 定位到水平中间 */
+    transform: translateX(-45%); /* 调整水平居中 */
     animation: spin 4s linear infinite; /* 保留旋转效果 */
 }
-#moving-gift {
-    bottom: 0; /* 保持与 #moving-image 在同一水平线上 */
-    left: calc(50% - 100px); /* 在 #moving-image 的左侧，调整 -100px 为合适的间距 */
-    transform: translateX(-50%); /* 保持与 #moving-image 的对齐方式一致 */
-}
-
-
-
-
 
 /* 列表中每个选择按钮的大小，颜色，动画等 */
 #music-list-box ul .btn,
