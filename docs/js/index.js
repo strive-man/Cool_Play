@@ -477,6 +477,7 @@ function addSnow(scene, uniforms) {
     "https://assets.codepen.io/3685267/snowflake3.png",
     "https://assets.codepen.io/3685267/snowflake4.png",
     "https://assets.codepen.io/3685267/snowflake5.png",
+    "./image/images.png",
 
     // NOTE: 链接会有路径问题，打不开的话记得修改
     // "./image/snowflake1.png",
