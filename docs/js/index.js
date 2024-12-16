@@ -44,6 +44,12 @@ let text = "Happy Every Day!<br>To:The Best Of You【24秋Java】";
  * @param {*} variable 传入 key
  * @returns 有值就返回值，没有就返回 false
  */
+
+let img = document.getElementById('moving-image'); let x = 0; let y = 100; function animateImage() { x += 1; img.style.left = x + 'px'; img.style.top = y + 'px'; requestAnimationFrame(animateImage); } animateImage();
+
+
+
+
 const getQueryVariable = (variable) => {
   let query = window.location.search.substring(1);
   let vars = query.split("&");
