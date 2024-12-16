@@ -70,8 +70,8 @@ body {
 #moving-image {
     position: absolute;
     bottom: 0; /* 定位到底部 */
-    left: 45%; /* 定位到水平中间 */
-    transform: translateX(-45%); /* 调整水平居中 */
+    left: 35%; /* 定位到水平中间 */
+    transform: translateX(-35%); /* 调整水平居中 */
     animation: spin 4s linear infinite; /* 保留旋转效果 */
 }
 
