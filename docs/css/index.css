@@ -74,7 +74,11 @@ body {
     transform: translateX(-50%); /* 调整水平居中 */
     animation: spin 4s linear infinite; /* 保留旋转效果 */
 }
-
+#moving-gift {
+    bottom: 0; /* 保持与 #moving-image 在同一水平线上 */
+    left: calc(50% - 100px); /* 在 #moving-image 的左侧，调整 -100px 为合适的间距 */
+    transform: translateX(-50%); /* 保持与 #moving-image 的对齐方式一致 */
+}
 
 
 
