@@ -68,10 +68,11 @@ body {
 #moving-image{ position: absolute; z-index: 10; }
 
 #moving-image {
-  position: absolute;
-  bottom: 0; /* 将图片放到页面底部 */
-  left: 0;   /* 图片的左边缘对齐页面左侧 */
-  animation: spin 4s linear infinite;
+    position: absolute;
+    bottom: 0; /* 定位到底部 */
+    left: 50%; /* 定位到水平中间 */
+    transform: translateX(-50%); /* 调整水平居中 */
+    animation: spin 4s linear infinite; /* 保留旋转效果 */
 }
 
 
