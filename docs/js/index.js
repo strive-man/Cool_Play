@@ -45,29 +45,6 @@ let text = "Happy Every Day!<br>To:The Best Of You【24秋Java】";
  * @returns 有值就返回值，没有就返回 false
  */
 
-
-
-document.addEventListener("DOMContentLoaded", function() {
-  let img = document.getElementById('moving-image');
-  let x = 0;
-  let y = 100;
-
-  function animateImage() {
-    x += 1;
-    img.style.left = x + 'px';
-    img.style.top = y + 'px';
-    requestAnimationFrame(animateImage);
-  }
-
-  animateImage();
-});
-
-
-let img = document.getElementById('moving-image'); let x = 0; let y = 100; function animateImage() { x += 1; img.style.left = x + 'px'; img.style.top = y + 'px'; requestAnimationFrame(animateImage); } animateImage();
-
-
-
-
 const getQueryVariable = (variable) => {
   let query = window.location.search.substring(1);
   let vars = query.split("&");
