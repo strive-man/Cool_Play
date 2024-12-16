@@ -70,7 +70,7 @@ body {
 #moving-image {
     position: absolute;
     bottom: 0; /* 定位到底部 */
-    left: 40%; /* 定位到水平中间 */
+    left: 20%; /* 定位到水平中间 */
     transform: translateX(-50%); /* 调整水平居中 */
     animation: spin 4s linear infinite; /* 保留旋转效果 */
 }
