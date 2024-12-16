@@ -65,6 +65,14 @@ body {
   margin: 2vmin 0;
 }
 
+#moving-image, #moving-gift { position: absolute; z-index: 10; }
+#moving-image { position: absolute; top: 100px; left: 100px; animation: spin 4s linear infinite; }
+
+
+
+
+
+
 /* 列表中每个选择按钮的大小，颜色，动画等 */
 #music-list-box ul .btn,
 #music-list-box ul .upload-btn {
@@ -124,3 +132,6 @@ body {
     opacity: 1;
   }
 }
+
+
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
