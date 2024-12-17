@@ -8,19 +8,19 @@
 const musicList = [
   {
     name: "Snowflakes Falling Down",
-    url: "./music/Simon_Panrucker_-_01_-_Snowflakes_Falling_Down.mp3",    
+    url: "../music/Simon_Panrucker_-_01_-_Snowflakes_Falling_Down.mp3",    
   },
   {
     name: "Jingle Bell Swing",
-    url: "./music/Jingle_Bell_Swing.mp3.mp3",
+    url: "../music/Jingle_Bell_Swing.mp3",
   },
   {
     name: "This Christmas",
-    url: "./music/云宫迅音.mp3",
+    url: "../music/云宫迅音.mp3",
   },
   {
     name: "No room at the inn",
-    url: "./music/No_room_at_the_inn.mp3.mp3",
+    url: "../music/No_room_at_the_inn.mp3",
   },
 ];
 
