@@ -8,19 +8,19 @@
 const musicList = [
   {
     name: "Snowflakes Falling Down",
-    url: "/Cool_Play/blob/master/docs/"+"music/Simon_Panrucker_-_01_-_Snowflakes_Falling_Down.mp3",    
+    url: "https://github.com/strive-man/Cool_Play/blob/master/docs/music/Simon_Panrucker_-_01_-_Snowflakes_Falling_Down.mp3",    
   },
   {
     name: "Jingle Bell Swing",
-    url: "blob/master/docs/music/Jingle_Bell_Swing.mp3",
+    url: "https://github.com/strive-man/Cool_Play/blob/master/docs/music/Jingle_Bell_Swing.mp3",
   },
   {
     name: "This Christmas",
-    url: "blob/master/docs/yungong.mp3",
+    url: "https://github.com/strive-man/Cool_Play/blob/master/docs/yungong.mp3",
   },
   {
     name: "No room at the inn",
-    url: "blob/master/docs/music/No_room_at_the_inn.mp3",
+    url: "https://github.com/strive-man/Cool_Play/blob/master/docs/music/No_room_at_the_inn.mp3",
   },
 ];
 
