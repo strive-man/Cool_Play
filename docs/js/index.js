@@ -8,21 +8,41 @@
 const musicList = [
   {
     name: "Snowflakes Falling Down",
-    url: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Simon_Panrucker/Happy_Christmas_You_Guys/Simon_Panrucker_-_01_-_Snowflakes_Falling_Down.mp3",
+    url: "./music/Simon_Panrucker_-_01_-_Snowflakes_Falling_Down.mp3",    
   },
   {
     name: "Jingle Bell Swing",
-    url: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Mark_Smeby/En_attendant_Nol/Mark_Smeby_-_07_-_Jingle_Bell_Swing.mp3",
+    url: "./music/Jingle_Bell_Swing.mp3.mp3",
   },
   {
     name: "This Christmas",
-    url: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Dott/This_Christmas/Dott_-_01_-_This_Christmas.mp3",
+    url: "./music/云宫迅音.mp3",
   },
   {
     name: "No room at the inn",
-    url: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/TRG_Banks/TRG_Banks_Christmas_Album/TRG_Banks_-_12_-_No_room_at_the_inn.mp3",
+    url: "./music/No_room_at_the_inn.mp3.mp3",
   },
 ];
+
+// const musicList = [
+//   {
+//     name: "Snowflakes Falling Down",
+//     url: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Simon_Panrucker/Happy_Christmas_You_Guys/Simon_Panrucker_-_01_-_Snowflakes_Falling_Down.mp3",
+//   },
+//   {
+//     name: "Jingle Bell Swing",
+//     url: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Mark_Smeby/En_attendant_Nol/Mark_Smeby_-_07_-_Jingle_Bell_Swing.mp3",
+//   },
+//   {
+//     name: "This Christmas",
+//     url: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Dott/This_Christmas/Dott_-_01_-_This_Christmas.mp3",
+//   },
+//   {
+//     name: "No room at the inn",
+//     url: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/TRG_Banks/TRG_Banks_Christmas_Album/TRG_Banks_-_12_-_No_room_at_the_inn.mp3",
+//   },
+// ];
+
 /**
  * 根据上面的音乐列表添加音乐选项
  */
